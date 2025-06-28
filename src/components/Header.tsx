@@ -6,9 +6,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-cinema-gold rounded-full flex items-center justify-center">
-              <Icon name="Film" size={20} className="text-cinema-black" />
-            </div>
+            <img
+              src="https://cdn.poehali.dev/files/a00ffbc6-52f0-4101-afb6-ed98ac67d41d.jpeg"
+              alt="Чувачок Продакшн"
+              className="w-8 h-8 object-contain rounded"
+            />
             <span className="font-oswald text-xl font-bold text-cinema-gold">
               Чувачок Продакшн
             </span>

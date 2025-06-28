@@ -21,7 +21,11 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <div className="mb-8 animate-fade-in-up">
           <div className="inline-flex items-center justify-center w-32 h-32 bg-cinema-gold/10 rounded-full cinema-glow mb-6">
-            <Icon name="Film" size={48} className="text-cinema-gold" />
+            <img
+              src="https://cdn.poehali.dev/files/a00ffbc6-52f0-4101-afb6-ed98ac67d41d.jpeg"
+              alt="Чувачок Продакшн"
+              className="w-16 h-16 object-contain rounded"
+            />
           </div>
         </div>
 
