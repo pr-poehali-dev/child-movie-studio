@@ -8,12 +8,13 @@ const projects = [
       "Психологический триллер о загадочных событиях в маленьком городке",
     year: "2024",
     status: "В производстве",
+    trailerUrl: "https://youtu.be/lWK00Fb6WRk?si=-NLfDs5T4lo3RepK",
   },
   {
     title: "Граф Табуреткин",
     genre: "Комедия",
     description: "Короткометражная комедия о приключениях эксцентричного графа",
-    year: "2023",
+    year: "2025",
     status: "Завершён",
   },
   {
@@ -64,10 +65,22 @@ const FeaturedProjects = () => {
                 <span className="text-cinema-gold text-sm font-medium">
                   {project.status}
                 </span>
-                <button className="flex items-center space-x-2 text-white hover:text-cinema-gold transition-colors">
-                  <span className="text-sm">Подробнее</span>
-                  <Icon name="ArrowRight" size={16} />
-                </button>
+                {project.trailerUrl ? (
+                  <a
+                    href={project.trailerUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg transition-all duration-300 hover:scale-105"
+                  >
+                    <Icon name="Play" size={16} />
+                    <span className="text-sm font-medium">Трейлер</span>
+                  </a>
+                ) : (
+                  <button className="flex items-center space-x-2 text-white hover:text-cinema-gold transition-colors">
+                    <span className="text-sm">Подробнее</span>
+                    <Icon name="ArrowRight" size={16} />
+                  </button>
+                )}
               </div>
             </div>
           ))}
