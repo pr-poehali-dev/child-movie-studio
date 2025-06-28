@@ -32,8 +32,6 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-white/80 mb-12 animate-fade-in-up">
-          Детская киностудия полного цикла
-          <br />
           <span className="text-cinema-gold font-medium">
             Воплощаем мечты в кино • Создаём будущее киноискусства
           </span>

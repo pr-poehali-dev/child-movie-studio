@@ -24,6 +24,7 @@ const projects = [
     description: "Весёлые приключения королевского пуделя и его друзей",
     year: "2024",
     status: "1 сезон",
+    trailerUrl: "https://youtu.be/1_x2crH6r8U?si=Niara-4NQ64-IUIh",
   },
 ];
 
