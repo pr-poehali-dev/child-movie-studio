@@ -30,10 +30,15 @@ const PhotoGallery = () => {
             канал. Лучшие работы попадут в нашу галерею!
           </p>
 
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3">
+          <a
+            href="https://t.me/ChuvachokProduction"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
+          >
             <Icon name="MessageCircle" size={20} />
             <span>Перейти в Telegram</span>
-          </button>
+          </a>
         </div>
       </div>
 
