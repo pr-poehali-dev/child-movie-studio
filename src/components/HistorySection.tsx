@@ -9,32 +9,27 @@ interface HistoryMilestone {
 
 const historyMilestones: HistoryMilestone[] = [
   {
-    year: "2020",
+    year: "2022",
     title: "Основание студии",
     description: "Шура Волкова и Саша Рощин создают 'Чувачок Продакшн'",
     isImportant: true,
   },
   {
-    year: "2021",
+    year: "2022",
     title: "Первые проекты",
     description: "Выпуск дебютных короткометражных фильмов",
   },
   {
-    year: "2022",
+    year: "2023",
     title: "Расширение команды",
     description: "К студии присоединяются новые талантливые актёры",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Жаба Поедаба",
     description:
       "Запуск первого масштабного фильма студии - психологического триллера",
     isImportant: true,
-  },
-  {
-    year: "2024",
-    title: "Новые горизонты",
-    description: "Запуск YouTube канала и работа над амбициозными проектами",
   },
 ];
 
