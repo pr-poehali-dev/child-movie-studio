@@ -7,38 +7,43 @@
 @layer base {
   :root {
     --background: 10 10% 4%;
-    --foreground: 45 100% 85%;
+    --foreground: 210 20% 85%;
 
     --card: 10 10% 6%;
-    --card-foreground: 45 100% 85%;
+    --card-foreground: 210 20% 85%;
 
     --popover: 10 10% 6%;
-    --popover-foreground: 45 100% 85%;
+    --popover-foreground: 210 20% 85%;
 
-    --primary: 45 100% 85%;
+    --primary: 210 20% 85%;
     --primary-foreground: 10 10% 4%;
 
     --secondary: 0 0% 15%;
-    --secondary-foreground: 45 100% 85%;
+    --secondary-foreground: 210 20% 85%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 45 20% 65%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 45 100% 60%;
+    --accent: 210 15% 70%;
     --accent-foreground: 10 10% 4%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 45 100% 85%;
+    --destructive-foreground: 210 20% 85%;
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 45 100% 60%;
+    --ring: 210 15% 70%;
 
     --radius: 0.5rem;
 
     --cinema-black: 10 10% 4%;
-    --cinema-gold: 45 100% 60%;
-    --cinema-gray: 0 0% 15%;
+    --cinema-gray: 210 15% 70%;
+    --cinema-light: 210 20% 85%;
+
+    /* Cloud colors */
+    --cloud-white: 210 20% 95%;
+    --cloud-light: 210 15% 90%;
+    --cloud-medium: 210 10% 85%;
   }
 }
 
@@ -50,6 +55,22 @@
   body {
     @apply bg-background text-foreground font-sans;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background-image:
+      radial-gradient(
+        circle at 20% 30%,
+        rgba(255, 255, 255, 0.05) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 70%,
+        rgba(255, 255, 255, 0.03) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 40% 80%,
+        rgba(255, 255, 255, 0.04) 0%,
+        transparent 50%
+      );
     font-family: "Open Sans", sans-serif;
   }
 
@@ -66,7 +87,7 @@
 
 @layer components {
   .cinema-glow {
-    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 0 20px rgba(210, 210, 210, 0.3);
   }
 
   .film-grain::before {
@@ -79,19 +100,38 @@
     background-image:
       radial-gradient(
         circle at 20% 80%,
-        rgba(212, 175, 55, 0.1) 0%,
+        rgba(210, 210, 210, 0.1) 0%,
         transparent 50%
       ),
       radial-gradient(
         circle at 80% 20%,
-        rgba(212, 175, 55, 0.1) 0%,
+        rgba(210, 210, 210, 0.1) 0%,
         transparent 50%
       );
     pointer-events: none;
   }
 
   .chain-link {
-    background: linear-gradient(45deg, #d4af37, #b8941f);
+    background: linear-gradient(45deg, #d2d2d2, #b8b8b8);
     clip-path: ellipse(40% 50% at 50% 50%);
+  }
+
+  .cloud-pattern {
+    background-image:
+      radial-gradient(
+        ellipse 200px 80px at 50% 20%,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse 150px 60px at 20% 50%,
+        rgba(255, 255, 255, 0.08) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse 180px 70px at 80% 40%,
+        rgba(255, 255, 255, 0.06) 0%,
+        transparent 50%
+      );
   }
 }

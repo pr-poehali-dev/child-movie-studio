@@ -16,36 +16,6 @@ const Header = () => {
 
           <nav className="hidden md:flex items-center space-x-8">
             <a
-              href="/"
-              className="text-cinema-gold hover:text-white transition-colors font-medium"
-            >
-              Главная
-            </a>
-            <a
-              href="/history"
-              className="text-white hover:text-cinema-gold transition-colors"
-            >
-              История
-            </a>
-            <a
-              href="/team"
-              className="text-white hover:text-cinema-gold transition-colors"
-            >
-              Участники
-            </a>
-            <a
-              href="/films"
-              className="text-white hover:text-cinema-gold transition-colors"
-            >
-              Фильмы
-            </a>
-            <a
-              href="/news"
-              className="text-white hover:text-cinema-gold transition-colors"
-            >
-              Новости
-            </a>
-            <a
               href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673lK"
               target="_blank"
               rel="noopener noreferrer"
