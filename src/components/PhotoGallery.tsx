@@ -24,9 +24,6 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="font-oswald text-xl font-bold text-cinema-gold mb-2">
-                Жаба пледа
-              </h3>
               <p className="text-white/70">Творчество наших зрителей</p>
             </div>
           </div>
@@ -40,9 +37,6 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <h3 className="font-oswald text-xl font-bold text-cinema-gold mb-2">
-                Королевский пудель
-              </h3>
               <p className="text-white/70">Артистическое творчество</p>
             </div>
           </div>
@@ -73,6 +67,34 @@ const PhotoGallery = () => {
           >
             <Icon name="MessageCircle" size={20} />
             <span>Перейти в Telegram</span>
+          </a>
+        </div>
+
+        {/* YouTube Subscription */}
+        <div className="bg-gradient-to-r from-red-500/10 to-cinema-gold/10 rounded-xl p-8 text-center mt-8">
+          <div className="flex justify-center mb-6">
+            <div className="bg-red-500/20 p-4 rounded-full">
+              <Icon name="Youtube" size={32} className="text-red-400" />
+            </div>
+          </div>
+
+          <h3 className="font-oswald text-3xl font-bold text-white mb-4">
+            ПОДПИШИТЕСЬ НА НАШ КАНАЛ!
+          </h3>
+
+          <p className="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
+            Помогите нам развивать детское творчество! Подписывайтесь на наш
+            YouTube канал и поддерживайте творческие проекты для детей.
+          </p>
+
+          <a
+            href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673l"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
+          >
+            <Icon name="Youtube" size={20} />
+            <span>Подписаться на канал</span>
           </a>
         </div>
       </div>
