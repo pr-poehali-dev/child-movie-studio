@@ -7,7 +7,7 @@ const projects = [
     description:
       "Психологический триллер о загадочных событиях в маленьком городке",
     year: "2024",
-    status: "В производстве",
+    status: "Завершён",
     trailerUrl: "https://youtu.be/lWK00Fb6WRk?si=-NLfDs5T4lo3RepK",
   },
   {
@@ -16,6 +16,7 @@ const projects = [
     description: "Короткометражная комедия о приключениях эксцентричного графа",
     year: "2025",
     status: "Завершён",
+    trailerUrl: "https://youtu.be/8WZORFCMgkM?si=BJ1ZuY_KO2LahMhb",
   },
   {
     title: "Король фон Чарли",
