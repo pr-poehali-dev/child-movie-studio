@@ -13,6 +13,41 @@ const PhotoGallery = () => {
           </p>
         </div>
 
+        {/* Gallery Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div className="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-cinema-gold/20">
+            <div className="aspect-square overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/files/2db8109c-4fee-4542-9b96-a3fa43692237.png"
+                alt="Жаба пледа"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="font-oswald text-xl font-bold text-cinema-gold mb-2">
+                Жаба пледа
+              </h3>
+              <p className="text-white/70">Творчество наших зрителей</p>
+            </div>
+          </div>
+
+          <div className="group relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-cinema-gold/20">
+            <div className="aspect-square overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/files/5208716f-e288-4889-9596-649a1eb9d29e.png"
+                alt="Королевский пудель"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="font-oswald text-xl font-bold text-cinema-gold mb-2">
+                Королевский пудель
+              </h3>
+              <p className="text-white/70">Артистическое творчество</p>
+            </div>
+          </div>
+        </div>
+
         {/* Telegram Invitation */}
         <div className="bg-gradient-to-r from-cinema-gold/10 to-blue-500/10 rounded-xl p-8 text-center">
           <div className="flex justify-center mb-6">
