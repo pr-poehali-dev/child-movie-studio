@@ -29,6 +29,33 @@ const HeroSection = () => {
           </div>
         </div>
 
+        {/* Unique kids-only feature */}
+        <div className="mb-10 animate-fade-in-up">
+          <div className="bg-cinema-gold/10 border border-cinema-gold/30 rounded-xl p-6 cinema-glow backdrop-blur-sm">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <span className="text-2xl">🎬</span>
+              <h3 className="text-cinema-gold font-bold text-lg">
+                ОСОБЕННОСТЬ СТУДИИ
+              </h3>
+              <span className="text-2xl">✨</span>
+            </div>
+            <p className="text-white text-base leading-relaxed">
+              <span className="font-semibold text-cinema-gold">
+                100% детское творчество!
+              </span>{" "}
+              🧒
+              <br />
+              Все фильмы придумываются, снимаются и создаются исключительно
+              детьми
+              <span className="text-cinema-gold"> без помощи взрослых</span> 🎭
+              <br />
+              <span className="text-sm text-white/80 mt-2 block">
+                Настоящая магия рождается из детского воображения 🌟
+              </span>
+            </p>
+          </div>
+        </div>
+
         <h1 className="font-oswald text-6xl md:text-8xl font-bold text-cinema-gold mb-6 animate-fade-in-up">
           ЧУВАЧОК
           <br />
