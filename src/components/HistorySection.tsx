@@ -26,8 +26,9 @@ const historyMilestones: HistoryMilestone[] = [
   },
   {
     year: "2023",
-    title: "Признание",
-    description: "Участие в фестивалях и получение первых наград",
+    title: "Жаба Поедаба",
+    description:
+      "Создание культового персонажа студии - зелёной жабы с уникальным характером",
     isImportant: true,
   },
   {
