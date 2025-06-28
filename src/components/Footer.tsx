@@ -61,12 +61,6 @@ const Footer = () => {
               <p>info@chuvachok-production.ru</p>
               <div className="flex space-x-4 mt-4">
                 <a
-                  href="#"
-                  className="text-white/70 hover:text-cinema-gold transition-colors"
-                >
-                  <Icon name="Instagram" size={20} />
-                </a>
-                <a
                   href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673lK"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,6 +76,31 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* YouTube призыв к действию */}
+        <div className="bg-cinema-gold/10 rounded-lg p-8 mt-8 border border-cinema-gold/20">
+          <div className="text-center">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-cinema-gold/20 rounded-full mb-4">
+              <Icon name="Youtube" size={32} className="text-cinema-gold" />
+            </div>
+            <h3 className="font-oswald text-2xl font-bold text-cinema-gold mb-2">
+              Поддержи молодое творчество!
+            </h3>
+            <p className="text-white/80 mb-6 max-w-2xl mx-auto">
+              Подпишись на наш YouTube канал и помоги нам развивать детское кино
+              в России. Каждая подписка — это вклад в будущее киноискусства!
+            </p>
+            <a
+              href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673lK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors cinema-glow"
+            >
+              <Icon name="Youtube" size={20} />
+              <span>Подписаться на канал</span>
+            </a>
           </div>
         </div>
 

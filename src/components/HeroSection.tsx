@@ -35,7 +35,11 @@ const HeroSection = () => {
           Детская киностудия полного цикла
           <br />
           <span className="text-cinema-gold font-medium">
-            Создаём кино с душой
+            Воплощаем мечты в кино • Создаём будущее киноискусства
+          </span>
+          <br />
+          <span className="text-lg text-white/70 mt-2 block">
+            Где каждый кадр — это история, а каждая история — это магия
           </span>
         </p>
 
