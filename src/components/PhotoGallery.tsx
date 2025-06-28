@@ -24,7 +24,7 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <p className="text-white/70">🎭 Творчество наших зрителей</p>
+              <p className="text-white/70">Творчество наших зрителей</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <p className="text-white/70">🎪 Артистическое творчество</p>
+              <p className="text-white/70">Артистическое творчество</p>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const PhotoGallery = () => {
             className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
           >
             <Icon name="MessageCircle" size={20} />
-            <span>🎭 Перейти в Telegram</span>
+            <span>Перейти в Telegram</span>
           </a>
         </div>
 
@@ -94,7 +94,7 @@ const PhotoGallery = () => {
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
           >
             <Icon name="Youtube" size={20} />
-            <span>🎪 Подписаться на канал</span>
+            <span>Подписаться на канал</span>
           </a>
         </div>
       </div>

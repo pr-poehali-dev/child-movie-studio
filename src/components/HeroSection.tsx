@@ -47,12 +47,12 @@ const HeroSection = () => {
             </div>
             <p className="text-white text-base leading-relaxed">
               <span className="font-semibold text-cinema-gold">
-                100% детское творчество! 🧒
+                100% детское творчество!
               </span>
               <br />
               Все фильмы придумываются, снимаются и создаются исключительно
               детьми
-              <span className="text-cinema-gold"> без помощи взрослых</span> 🎭
+              <span className="text-cinema-gold"> без помощи взрослых</span>
               <br />
               <span className="text-sm text-white/80 mt-2 block">
                 Настоящая магия рождается из детского воображения 🌟
@@ -63,7 +63,7 @@ const HeroSection = () => {
 
         <p className="text-xl md:text-2xl text-white/80 mb-8 animate-fade-in-up">
           <span className="text-cinema-gold font-medium">
-            Воплощаем мечты в кино • Создаём будущее киноискусства 🎪
+            Воплощаем мечты в кино • Создаём будущее киноискусства
           </span>
           <br />
           <span className="text-lg text-white/70 mt-2 block">
@@ -76,7 +76,7 @@ const HeroSection = () => {
             🎬 Смотреть фильмы
           </button>
           <button className="border-2 border-cinema-gold text-cinema-gold px-8 py-4 rounded-lg font-semibold hover:bg-cinema-gold hover:text-cinema-black transition-colors">
-            🎪 О студии
+            О студии
           </button>
         </div>
       </div>

@@ -43,14 +43,14 @@ const TeamSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl md:text-5xl font-bold text-white mb-4">
-            🎭 Наша команда
+            Наша команда
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
             Талантливые мечтатели, которые превращают идеи в незабываемые
-            истории 🎨
+            истории
             <br />
             <span className="text-cinema-gold font-medium">
-              Наша страсть к кино — это топливо для создания шедевров! 🎬
+              Наша страсть к кино — это топливо для создания шедевров!
             </span>
           </p>
         </div>
@@ -76,7 +76,7 @@ const TeamSection = () => {
                 </div>
                 <div>
                   <h3 className="font-oswald text-xl font-semibold text-white">
-                    {member.name} {member.isFounder ? "🎯" : "🎪"}
+                    {member.name} {member.isFounder ? "" : "👑"}
                   </h3>
                   {member.isFounder && (
                     <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-cinema-gold/20 text-cinema-gold">
