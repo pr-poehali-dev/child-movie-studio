@@ -13,22 +13,6 @@ const PhotoGallery = () => {
           </p>
         </div>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
-          {[...Array(8)].map((_, index) => (
-            <div
-              key={index}
-              className="aspect-square bg-cinema-gray/30 rounded-lg overflow-hidden hover:cinema-glow transition-all duration-300 group"
-            >
-              <img
-                src={`https://images.unsplash.com/photo-${1500000000000 + index * 1000000}?w=400&h=400&fit=crop&crop=faces`}
-                alt={`Галерея ${index + 1}`}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-              />
-            </div>
-          ))}
-        </div>
-
         {/* Telegram Invitation */}
         <div className="bg-gradient-to-r from-cinema-gold/10 to-blue-500/10 rounded-xl p-8 text-center">
           <div className="flex justify-center mb-6">
