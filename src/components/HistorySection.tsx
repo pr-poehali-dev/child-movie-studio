@@ -98,7 +98,20 @@ const HistorySection = () => {
                     <h3 className="font-oswald text-xl font-semibold text-white mb-2">
                       {milestone.title}
                     </h3>
-                    <p className="text-gray-300">{milestone.description}</p>
+                    <p className="text-gray-300 mb-4">
+                      {milestone.description}
+                    </p>
+
+                    {/* Жаба Поедаба image for 2023 */}
+                    {milestone.year === "2023" && (
+                      <div className="mt-4 flex justify-center">
+                        <img
+                          src="https://cdn.poehali.dev/files/d9e5a158-f464-4b34-98ce-40f6bee37522.png"
+                          alt="Жаба Поедаба - культовый персонаж студии"
+                          className="w-32 h-32 object-contain rounded-lg bg-gray-800/30 p-2"
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
