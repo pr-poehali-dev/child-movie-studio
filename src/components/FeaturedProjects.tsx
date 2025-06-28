@@ -34,10 +34,10 @@ const FeaturedProjects = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-5xl font-bold text-cinema-gold mb-4">
-            НАШИ ПРОЕКТЫ
+            🎬 НАШИ ПРОЕКТЫ
           </h2>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Создаём незабываемые истории для юного поколения
+            Создаём незабываемые истории для юного поколения 🎭
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const FeaturedProjects = () => {
               </div>
 
               <h3 className="font-oswald text-2xl font-bold text-white mb-3">
-                {project.title}
+                {project.title} {project.genre === "Триллер" ? "🎯" : "🎪"}
               </h3>
 
               <p className="text-white/80 text-sm mb-6">
@@ -75,7 +75,7 @@ const FeaturedProjects = () => {
                     className="flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg transition-all duration-300 hover:scale-105"
                   >
                     <Icon name="Play" size={16} />
-                    <span className="text-sm font-medium">Трейлер</span>
+                    <span className="text-sm font-medium">🎬 Трейлер</span>
                   </a>
                 ) : (
                   <button className="flex items-center space-x-2 text-white hover:text-cinema-gold transition-colors">

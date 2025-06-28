@@ -39,14 +39,14 @@ const HistorySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl md:text-5xl font-bold text-cinema-gold mb-4">
-            История студии
+            📜 История студии
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Невероятный путь от мечты к реальности — история о том, как смелость
-            и творчество
+            и творчество 🎨
             <br />
             <span className="text-cinema-gold font-medium">
-              превращают юных мечтателей в настоящих кинематографистов
+              превращают юных мечтателей в настоящих кинематографистов 🎬
             </span>
           </p>
         </div>
@@ -99,7 +99,8 @@ const HistorySection = () => {
                       {milestone.title}
                     </h3>
                     <p className="text-gray-300 mb-4">
-                      {milestone.description}
+                      {milestone.description}{" "}
+                      {milestone.isImportant ? "🎯" : "🎪"}
                     </p>
 
                     {/* Убираем изображение Жабы Поедабы */}

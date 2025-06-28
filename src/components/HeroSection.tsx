@@ -29,21 +29,26 @@ const HeroSection = () => {
           </div>
         </div>
 
+        <h1 className="font-oswald text-6xl md:text-8xl font-bold text-cinema-gold mb-6 animate-fade-in-up">
+          ЧУВАЧОК 🎭
+          <br />
+          <span className="text-white">ПРОДАКШН</span>
+        </h1>
+
         {/* Unique kids-only feature */}
-        <div className="mb-10 animate-fade-in-up">
+        <div className="mb-12 animate-fade-in-up">
           <div className="bg-cinema-gold/10 border border-cinema-gold/30 rounded-xl p-6 cinema-glow backdrop-blur-sm">
             <div className="flex items-center justify-center gap-3 mb-3">
               <span className="text-2xl">🎬</span>
               <h3 className="text-cinema-gold font-bold text-lg">
                 ОСОБЕННОСТЬ СТУДИИ
               </h3>
-              <span className="text-2xl">✨</span>
+              <span className="text-2xl">🎯</span>
             </div>
             <p className="text-white text-base leading-relaxed">
               <span className="font-semibold text-cinema-gold">
-                100% детское творчество!
-              </span>{" "}
-              🧒
+                100% детское творчество! 🧒
+              </span>
               <br />
               Все фильмы придумываются, снимаются и создаются исключительно
               детьми
@@ -56,28 +61,22 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <h1 className="font-oswald text-6xl md:text-8xl font-bold text-cinema-gold mb-6 animate-fade-in-up">
-          ЧУВАЧОК
-          <br />
-          <span className="text-white">ПРОДАКШН</span>
-        </h1>
-
-        <p className="text-xl md:text-2xl text-white/80 mb-12 animate-fade-in-up">
+        <p className="text-xl md:text-2xl text-white/80 mb-8 animate-fade-in-up">
           <span className="text-cinema-gold font-medium">
-            Воплощаем мечты в кино • Создаём будущее киноискусства
+            Воплощаем мечты в кино • Создаём будущее киноискусства 🎪
           </span>
           <br />
           <span className="text-lg text-white/70 mt-2 block">
-            Где каждый кадр — это история, а каждая история — это магия
+            Где каждый кадр — это история, а каждая история — это магия 🎨
           </span>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up">
           <button className="bg-cinema-gold text-cinema-black px-8 py-4 rounded-lg font-semibold hover:bg-white transition-colors cinema-glow">
-            Смотреть фильмы
+            🎬 Смотреть фильмы
           </button>
           <button className="border-2 border-cinema-gold text-cinema-gold px-8 py-4 rounded-lg font-semibold hover:bg-cinema-gold hover:text-cinema-black transition-colors">
-            О студии
+            🎪 О студии
           </button>
         </div>
       </div>

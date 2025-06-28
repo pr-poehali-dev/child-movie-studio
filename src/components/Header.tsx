@@ -12,7 +12,7 @@ const Header = () => {
               className="w-8 h-8 object-contain rounded"
             />
             <span className="font-oswald text-xl font-bold text-cinema-gold">
-              Чувачок Продакшн
+              🎬 Чувачок Продакшн
             </span>
           </div>
 
@@ -24,7 +24,7 @@ const Header = () => {
               className="text-white hover:text-cinema-gold transition-colors flex items-center space-x-1"
             >
               <Icon name="Youtube" size={16} />
-              <span>YouTube</span>
+              <span>YouTube 🎭</span>
             </a>
           </nav>
 

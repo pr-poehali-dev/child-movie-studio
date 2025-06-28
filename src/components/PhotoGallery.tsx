@@ -6,10 +6,10 @@ const PhotoGallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-5xl font-bold text-cinema-gold mb-4">
-            ФОТОГАЛЕРЕЯ
+            📸 ФОТОГАЛЕРЕЯ
           </h2>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Моменты со съёмочных площадок и творчество наших зрителей
+            Моменты со съёмочных площадок и творчество наших зрителей 🎨
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <p className="text-white/70">Творчество наших зрителей</p>
+              <p className="text-white/70">🎭 Творчество наших зрителей</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const PhotoGallery = () => {
               />
             </div>
             <div className="p-6">
-              <p className="text-white/70">Артистическое творчество</p>
+              <p className="text-white/70">🎪 Артистическое творчество</p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const PhotoGallery = () => {
           </div>
 
           <h3 className="font-oswald text-3xl font-bold text-white mb-4">
-            ПОДЕЛИТЕСЬ ТВОРЧЕСТВОМ!
+            🎨 ПОДЕЛИТЕСЬ ТВОРЧЕСТВОМ!
           </h3>
 
           <p className="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
@@ -66,7 +66,7 @@ const PhotoGallery = () => {
             className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
           >
             <Icon name="MessageCircle" size={20} />
-            <span>Перейти в Telegram</span>
+            <span>🎭 Перейти в Telegram</span>
           </a>
         </div>
 
@@ -79,7 +79,7 @@ const PhotoGallery = () => {
           </div>
 
           <h3 className="font-oswald text-3xl font-bold text-white mb-4">
-            ПОДПИШИТЕСЬ НА НАШ КАНАЛ!
+            🎬 ПОДПИШИТЕСЬ НА НАШ КАНАЛ!
           </h3>
 
           <p className="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
@@ -94,7 +94,7 @@ const PhotoGallery = () => {
             className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center space-x-3"
           >
             <Icon name="Youtube" size={20} />
-            <span>Подписаться на канал</span>
+            <span>🎪 Подписаться на канал</span>
           </a>
         </div>
       </div>

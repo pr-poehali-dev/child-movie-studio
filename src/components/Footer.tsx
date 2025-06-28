@@ -11,19 +11,19 @@ const Footer = () => {
                 <Icon name="Film" size={20} className="text-cinema-black" />
               </div>
               <span className="font-oswald text-xl font-bold text-cinema-gold">
-                Чувачок Продакшн
+                🎬 Чувачок Продакшн
               </span>
             </div>
             <p className="text-white/70 mb-4">
               Детская киностудия полного цикла. Создаём качественный контент для
-              молодого поколения.
+              молодого поколения 🎭
             </p>
           </div>
 
           {/* Social Links */}
           <div className="text-center">
             <h3 className="font-oswald text-lg font-bold text-cinema-gold mb-4">
-              ПРИСОЕДИНЯЙТЕСЬ К НАМ
+              🎪 ПРИСОЕДИНЯЙТЕСЬ К НАМ
             </h3>
             <a
               href="https://t.me/ChuvachokProduction"
@@ -32,14 +32,14 @@ const Footer = () => {
               className="inline-flex items-center space-x-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 px-6 py-3 rounded-lg transition-colors"
             >
               <Icon name="MessageCircle" size={20} />
-              <span>Telegram канал</span>
+              <span>🎨 Telegram канал</span>
             </a>
           </div>
         </div>
 
         <div className="border-t border-cinema-gold/20 mt-8 pt-8 text-center">
           <p className="text-white/50">
-            © 2024 Чувачок Продакшн. Все права защищены.
+            © 2024 Чувачок Продакшн. Все права защищены 🎬
           </p>
         </div>
       </div>
