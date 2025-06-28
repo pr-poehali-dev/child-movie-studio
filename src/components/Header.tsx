@@ -45,6 +45,15 @@ const Header = () => {
             >
               Новости
             </a>
+            <a
+              href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673lK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-cinema-gold transition-colors flex items-center space-x-1"
+            >
+              <Icon name="Youtube" size={16} />
+              <span>YouTube</span>
+            </a>
           </nav>
 
           <button className="md:hidden text-cinema-gold">

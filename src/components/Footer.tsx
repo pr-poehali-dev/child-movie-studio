@@ -67,7 +67,9 @@ const Footer = () => {
                   <Icon name="Instagram" size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://youtube.com/@chuvachokproduction?si=H5OAOz3nmS1673lK"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/70 hover:text-cinema-gold transition-colors"
                 >
                   <Icon name="Youtube" size={20} />
